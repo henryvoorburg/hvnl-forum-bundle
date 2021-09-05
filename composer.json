@@ -1,0 +1,24 @@
+{
+    "name": "henryvoorburg/hvnl-forum-bundle",
+    "description": "HVNL Forum Bundle",
+    "keywords": ["forum", "board"],
+    "homepage": "https://github.com/henryvoorburg/HVNLForumBundle",
+    "type": "symfony-bundle",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2.5"
+    },
+    "authors": [
+        {
+            "name": "Henry Voorburg",
+            "email": "git@henryvoorburg.nl",
+            "homepage": "https://henryvoorburg.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HVNL\\ForumBundle\\": "src/"
+        }
+    }
+}
